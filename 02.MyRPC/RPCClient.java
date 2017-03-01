@@ -23,6 +23,7 @@ public class RPCClient {
      * @param serviceInterface  接口类型 
      * @return  被代理的接口实现 
 	 * @author  myzchi
+     * @date  2017-3-1
      */  
     @SuppressWarnings("unchecked")  
     public static <T> T findService(final String host , final int port ,final Class<T> serviceInterface){  
