@@ -22,6 +22,7 @@ public class RPCClient {
      * @param port  RPC服务端口 
      * @param serviceInterface  接口类型 
      * @return  被代理的接口实现 
+	 * @author  myzchi
      */  
     @SuppressWarnings("unchecked")  
     public static <T> T findService(final String host , final int port ,final Class<T> serviceInterface){  
